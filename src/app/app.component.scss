@@ -1,0 +1,19 @@
+/* Scroll area */
+#wrapper {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  margin-top: -1px; // Enable overflow-scrolling background-color
+  padding-top: 1px; // Enable overflow-scrolling background-color
+  background-color: #ccc; // Custom overflow-scrolling background-color
+}
+
+/* Always enable overflow-scrolling */
+#container {
+  width: 100%;
+  min-height: 100%;
+  padding:.5px 0; // Prevent visible background-color of #wrapper because of child element's margin
+  background-color:#fff;
+}
