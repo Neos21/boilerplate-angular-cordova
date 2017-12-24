@@ -2,6 +2,7 @@
   "name": "angular-cordova",
   "version": "0.0.0",
   "license": "MIT",
+  "author": "Neo <neos21@gmail.com> (http://neo.s21.xrea.com/)",
   "scripts": {
     "start": "ng serve --open",
     "test": "ng test",
