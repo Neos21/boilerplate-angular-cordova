@@ -46,7 +46,7 @@ $ npm run cordova plugin add cordova-plugin-console
 $ npm run cordova plugin add cordova-plugin-statusbar
 
 # Appium をインストールする
-$ npm install --save-dev appium wd wd-bridge 
+$ npm install --save-dev appium wd wd-bridge
 ```
 
 
