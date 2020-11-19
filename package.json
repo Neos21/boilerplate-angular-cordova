@@ -1,8 +1,6 @@
 {
   "name": "angular-cordova",
-  "version": "0.0.0",
-  "license": "MIT",
-  "author": "Neo <neos21@gmail.com> (http://neo.s21.xrea.com/)",
+  "private": true,
   "scripts": {
     "start": "ng serve --open",
     "test": "ng test",
@@ -15,7 +13,20 @@
     "e2e-ios-appium": "appium --nodeconfig ./nodeConfig.json --session-override",
     "e2e-ios-exec": "ng e2e --config ./protractor.ios.conf.js"
   },
-  "private": true,
+  "author": "Neo <neos21@gmail.com> (https://neos21.net/)",
+  "license": "MIT",
+  "homepage": "https://github.com/Neos21/angular-cordova#readme",
+  "bugs": {
+    "url": "https://github.com/Neos21/angular-cordova/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/angular-cordova.git"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Neos21"
+  },
   "dependencies": {
     "@angular/animations": "4.3.3",
     "@angular/common": "4.3.3",
